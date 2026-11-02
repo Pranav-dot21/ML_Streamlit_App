@@ -1,9 +1,9 @@
-   import streamlit as st
-   import joblib
-   import os
+import streamlit as st
+import joblib
+import os
 
-   model_path = os.path.join(os.path.dirname(__file__), "iris_model.pkl")
-   model = joblib.load(model_path)
+model_path = os.path.join(os.path.dirname(__file__), "iris_model.pkl")
+model = joblib.load(model_path)
 
 st.title("Iris Flower Prediction")
 
